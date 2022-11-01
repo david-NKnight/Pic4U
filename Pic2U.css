@@ -12,19 +12,20 @@ body {
 }
 
 div.gallery {
-    margin: 5px;
+    margin: 15px;
     border: 4px solid #ccc;
     float: left;
-    width: 180px;
+    width: 200px;
+    height: 200px;
     display: flex;
-    float: left;
-    align-items: center;
-    justify-content: center;
-    /*flex-basis: 200px;*/
+    /*float: left;*/
+    /*align-items: center;*/
+    /*justify-content: center;*/    
     gap: 3px;
     flex-wrap: wrap;
     background-color: aliceblue;
-       
+    flex-direction: row;
+           
   }
   
   div.gallery:hover {
@@ -46,10 +47,13 @@ div.gallery {
     font-family: 'Courier New', Courier, monospace;
     margin: auto;
     margin-bottom: 4px;
-   
+       
   }
 
   img {
     border: 4px #ccc;
   }
+
+
+
 
