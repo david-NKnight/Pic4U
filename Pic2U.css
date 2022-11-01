@@ -1,0 +1,55 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    background-color: grey;
+
+}
+
+.title {
+    color: aliceblue;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+div.gallery {
+    margin: 5px;
+    border: 4px solid #ccc;
+    float: left;
+    width: 180px;
+    display: flex;
+    float: left;
+    align-items: center;
+    justify-content: center;
+    /*flex-basis: 200px;*/
+    gap: 3px;
+    flex-wrap: wrap;
+    background-color: aliceblue;
+       
+  }
+  
+  div.gallery:hover {
+    border: 4px solid sandybrown;
+    
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: 100%;
+     
+  }
+  
+  div.desc {
+    
+    background-color: aliceblue;
+    text-align: center;
+    color: slategrey;
+    font-family: 'Courier New', Courier, monospace;
+    margin: auto;
+    margin-bottom: 4px;
+   
+  }
+
+  img {
+    border: 4px #ccc;
+  }
+
