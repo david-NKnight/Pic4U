@@ -4,7 +4,6 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: center;
     background-color: grey;
-
 }
 
 .title {
@@ -13,49 +12,53 @@ body {
     font-weight: bold;
 }
 
-div.gallery {
+div.gallery1, 
+div.gallery2 {
     margin: 15px;
-    border: 4px solid #ccc;
-    float: left;
-    width: 200px;
-    height: 200px;
+    border: 4px solid #ccc;    
+    width: 20%;
+    height: 189px;
     display: flex;
-    /*float: left;*/
-    /*align-items: center;*/
-    /*justify-content: center;*/    
-    gap: 3px;
-    flex-wrap: wrap;
-    background-color: aliceblue;
-    flex-direction: row;
-           
-  }
+    flex-wrap: wrap;    
+    position: relative;
+    max-width: 300px;
+    float: right;
+            
+}
   
-  div.gallery:hover {
+  div.gallery1:hover, 
+  div.gallery2:hover {
     border: 4px solid sandybrown;
-    
-  }
+}
   
-  div.gallery img {
+  div.gallery1 img, 
+  div.gallery2 img {
     width: 100%;
     height: 100%;
-     
-  }
-  
-  div.desc {
+    display: block;
+    opacity: 1;
     
-    background-color: aliceblue;
+}
+  
+  div.desc {        
+    
+    position:absolute;    
+    font-family: 'Courier New', Courier, monospace;    
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5); /* Black see-through */
+    color: #f1f1f1;
+    width: 100%;
+    transition: .5s ease;
+    opacity:0;
+    color: white;
+    font-size: 20px;
     text-align: center;
-    color: slategrey;
-    font-family: 'Courier New', Courier, monospace;
-    margin: auto;
-    margin-bottom: 4px;
-       
+    
+
   }
-
-  img {
-    border: 4px #ccc;
-  }
-
-
-
+    
+  div.gallery1:hover .desc,
+  div.gallery2:hover .desc {
+  opacity: 1;
+}
 
