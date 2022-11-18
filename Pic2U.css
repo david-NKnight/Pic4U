@@ -1,7 +1,6 @@
 /*It sets the whole color of the webpage*/
 *{box-sizing: border-box;}
 
-
 body {
     background-color: #687864;
 }
@@ -10,10 +9,19 @@ body {
 .gallery {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 20px;
+  gap: 1.5rem;
   grid-auto-rows: minmax(100px, auto);
   position: relative;
+  width: 50%;
+  max-width: 300px;
+  padding-block: 2rem;
+  /*margin-inline: auto;*/
 
+}
+
+.image {
+  display: block;
+  width: 100%;
 }
 
 /*it sets the font and alignment of the Title*/
@@ -45,7 +53,6 @@ div .desc {
 
 }
 
-
 div:hover .desc {
 
   bottom: 0;
@@ -57,6 +64,11 @@ div:hover .desc {
   background: rgba(0, 0, 0, 0.5);   
 
 }
+
+.gallery:hover .desc {
+  opacity: 1;
+}
+
 
 .a {
   margin: 100px;
