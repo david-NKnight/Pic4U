@@ -1,8 +1,5 @@
-/*It sets the whole color of the webpage*/
-*{box-sizing: border-box;}
-
 body {
-    background-color: #687864;
+    background-color: #b6cfaf;
 }
 
 
@@ -74,3 +71,6 @@ div:hover .desc {
   margin: 100px;
 }
 
+.div ._blank {
+  border: white;
+}
