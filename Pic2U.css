@@ -1,76 +1,42 @@
 body {
     background-color: #b6cfaf;
-}
-
-
-.gallery {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 1.5rem;
-  grid-auto-rows: minmax(100px, auto);
-  position: relative;
-  width: 50%;
-  max-width: 300px;
-  padding-block: 2rem;
-  /*margin-inline: auto;*/
-
-}
-
-.image {
-  display: block;
-  width: 100%;
-}
-
-/*it sets the font and alignment of the Title*/
-.title {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    text-align: center;
-    color: aliceblue;
-    font-size: 32px;
-    font-weight: bold;
     
 }
 
-div .desc {
 
-  font-family: 'Courier New', Courier, monospace;        
-  color: #f1f1f1;
-  width: 100%;       
-  color: white;
-  font-size: 20px;
+
+div.gallery {
+  margin: 9px;
+  border: 3px solid #acc4a6;
+  float: right;
+  width: 180px;
+  height: 100px;
+  padding-bottom: 1px;
+  
+  
+}
+
+div.gallery:hover {
+  border:3px solid #dce9d8;
+  padding-bottom: 1px;
+  
+}
+
+div.gallery img {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  
+}
+
+div.desc {
   text-align: center;
-  position:absolute;
-  bottom: 0;
-  opacity: 0;
-  padding: 20px;
-  text-align: center;
-  transition: .5s ease;
-  background: rgb(0, 0, 0);
-  background: rgba(0, 0, 0, 0.5); /* Black see-through*/
+  font-family: sans-serif;
+  color: rgb(83, 83, 83);
+  position:relative; 
+  padding: 5px;
+  margin-bottom: 5px;
 
 }
 
-div:hover .desc {
 
-  bottom: 0;
-  opacity: 0;
-  padding: 20px;
-  text-align: center;
-  transition: .5s ease;
-  background: rgb(0, 0, 0);
-  background: rgba(0, 0, 0, 0.5);   
-
-}
-
-.gallery:hover .desc {
-  opacity: 1;
-}
-
-
-.a {
-  margin: 100px;
-}
-
-.div ._blank {
-  border: white;
-}
