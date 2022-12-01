@@ -29,7 +29,7 @@ h1 {
 /* Add padding BETWEEN each column (if you want) */
 .row,
 .row > .column {
-  padding: 8px;
+  padding: 5px;
 }
 
 /* Create four equal columns that floats next to each other */
@@ -50,8 +50,7 @@ h1 {
 /* Content */
 .content {
   background-color: white;
-  padding: 10px;
-  
+  padding: 10px;   
 }
 
 /* The "show" class is added to the filtered elements */
@@ -112,5 +111,34 @@ img.cssvcircle {
   padding-bottom: 1%;
 }
 
+h4 {
+  text-align: center;
+}
 
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: #b6cfaf;
+  overflow: hidden;
+}
 
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: right;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #94aa8e;
+  color: white;
+}
