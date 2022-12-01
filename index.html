@@ -7,74 +7,85 @@
     <title>Pic4U!</title>
         <div class="css-1z2hzn" style="background-color: #b6cfaf">        
             <div class="cssv-73ehw">
-                <img src="Pics/blob.jpg" class="cssvcircle" alt="Avatar" style="width:100px">
-            </div>
-            <p class="css1ny458n" data-test="account-badge-name">David Knight</p>
-            <p data-test="account-badge-email" class="css11s48l6">dbnunes82@gmail.com</p>
+                <img src="Pics/blob.jpg" class="cssvcircle" alt="Avatar" style="width:80px">
+                <p class="css1ny458n" data-test="account-badge-name">David Knight</p>
+            <!-- <p data-test="account-badge-email" class="css11s48l6">dbnunes82@gmail.com</p> -->
         </div>        
     </div>
         <link rel="stylesheet" href="Pic2U.css">
     
 </head>
 <body>
-        
-    <div class="gallery">
-        <a target="_blank" href="Pics/PNW.jpg">
-            <img src="Pics/PNW.jpg" alt="PNW" width="600" height="400"></a>
-                <div class="desc">LANDSCAPE</div>
+    <h2>PORTFOLIO</h2>
+    <div id="myBtnContainer">
+      <button class="btn active" onclick="filterSelection('all')"> Show all</button>
+      <button class="btn" onclick="filterSelection('nature')"> Nature</button>
+      <button class="btn" onclick="filterSelection('cars')"> Cars</button>
+      <button class="btn" onclick="filterSelection('people')"> People</button>
     </div>
-
-    <div class="gallery">
-        <a target="_blank" href="Pics/Waterfall.JPG">
-            <img src="Pics/Waterfall.JPG" alt="Turner Falls Oklahoma" width="600" height="400"></a>
-                <div class="desc">NATURE</div>
-    </div>
-
-    <div class="gallery">
-        <a target="_blank" href="Pics/Fall.JPG">
-            <img src="Pics/Fall.JPG" alt="Turner Falls Oklahoma" width="600" height="400"></a>
-                <div class="desc">SEASON</div>
-    </div>
-
-    <div class="gallery">
-        <a target="_blank" href="Pics/Roads.JPG">
-            <img src="Pics/Roads.JPG" alt="Turner Falls Oklahoma" width="600" height="400"></a>
-                    <div class="desc">ROADS</div>
-    </div>
-                    
-    <div class="gallery">
-        <a target="_blank" href="Pics/Baby Fox Squirel.JPG">
-            <img src="Pics/Baby Fox Squirel.JPG" alt="PNW" width="600" height="400"></a>
-                <div class="desc">WILDLIFE</div>
-    </div>
-
-    <div class="gallery">
-        <a target="_blank" href="Pics/Focus.JPG">
-            <img src="Pics/Focus.JPG" alt="Turner Falls Oklahoma" width="600" height="400"></a>
-                <div class="desc">SKYLINE</div>
-    </div>
-
-    <div class="gallery">
-        <a target="_blank" href="Pics/Urban.JPG">
-            <img src="Pics/Urban.JPG" alt="Turner Falls Oklahoma" width="600" height="400"></a>
-                <div class="desc">DETAILS</div>
-    </div>
-
-    <div class="gallery">
-        <a target="_blank" href="Pics/Fruits.JPG">
-            <img src="Pics/Fruits.JPG" alt="Turner Falls Oklahoma" width="600" height="400"></a>
-                    <div class="desc">FRUITS</div>
-    </div>                
-                    
-    <div class="gallery">    
-        <a target="_blank" href="Pics/Cadillac Ranch.JPG">
-            <img src="Pics/Cadillac Ranch.JPG" alt="Turner Falls Oklahoma" width="600" height="400"></a>
-                    <div class="desc">ART</div>
-    </div>    
-
-
-    </div>
-</div>
+    
+    <!-- Portfolio Gallery Grid -->
+    <div class="row">
+      <div class="column nature">
+        <div class="content">
+          <img src="Pics/Baby Fox Squirel.JPG" alt="Mountains" style="width: 100%">
+          <h4>Mountains</h4>
+          <p>Lorem ipsum dolor..</p>
+        </div>
+      </div>
+      <div class="column nature">
+        <div class="content">
+          <img src="Pics/Fall.JPG" alt="Lights" style="width:100%">
+          <h4>Lights</h4>
+          <p>Lorem ipsum dolor..</p>
+        </div>
+      </div>
+      <div class="column nature">
+        <div class="content">
+          <img src="Pics/Cadillac Ranch.JPG" alt="Nature" style="width:100%">
+          <h4>Forest</h4>
+          <p>Lorem ipsum dolor..</p>
+        </div>
+      </div>    
+      <div class="column cars">
+        <div class="content">
+          <img src="/Pics/Focus.JPG" alt="Car" style="width:100%">
+          <h4>Retro</h4>
+          <p>Lorem ipsum dolor..</p>
+        </div>
+      </div>
+      <div class="column cars">
+        <div class="content">
+          <img src="Pics/PNW.jpg" alt="Car" style="width:88.5%" class="pnw">
+          <h4>Fast</h4>
+          <p>Lorem ipsum dolor..</p>
+        </div>
+      </div>
+      <div class="column cars">
+        <div class="content">
+          <img src="/Pics/Waterfall.JPG" alt="Car" style="width:100%">
+          <h4>Classic</h4>
+          <p>Lorem ipsum dolor..</p>
+        </div>
+      </div>
+    
+      <div class="column people">
+        <div class="content">
+          <img src="Pics/Roads.JPG" alt="People" style="width:74%" class="roads">
+          <h4>Girl</h4>
+          <p>Lorem ipsum dolor..</p>
+        </div>
+      </div>
+      <div class="column people">
+        <div class="content">
+          <img src="Pics/Fruits.JPG" alt="People" style="width:100%">
+          <h4>Man</h4>
+          <p>Lorem ipsum dolor..</p>
+        </div>
+      </div>    
+      </div>
+    <!-- END GRID -->
+    </div> 
 
 
 </body>

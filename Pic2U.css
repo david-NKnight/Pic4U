@@ -1,67 +1,116 @@
+/*This is a scratch for my Photography webpage*/
+/*This line defines the webpage background color*/
+* {
+  box-sizing: border-box;
+  
+}
+
 body {
-    background-color: #b6cfaf;    
+  background-color: #f1f1f1;
+  padding: 20px;
+  font-family: Arial;
 }
 
-div.gallery {
-  margin: 9px;
-  border: 3px solid #acc4a6;
+/* Center website */
+.main {
+  max-width: 1000px;
+  margin: auto;
+}
+
+h1 {
+  font-size: 50px;
+  word-break: break-all;
+}
+
+.row {
+  margin: 8px -16px;
+}
+
+/* Add padding BETWEEN each column (if you want) */
+.row,
+.row > .column {
+  padding: 8px;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
   float: right;
-  width: 180px;
-  height: 100px;
-  padding-bottom: 1px;    
-}
+  width: 25%;
 
-div.gallery:hover {
-  border:3px solid #dce9d8;
-  padding-bottom: 1px;
   }
 
-div.gallery img {
+/* Clear floats after rows */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
   width: 100%;
-  height: 100%;
-  display: grid;
-  column-gap: 50px; 
-  row-gap: 50px; 
-  float: right;
 }
 
-div.desc {
-  text-align: center;
-  font-family: sans-serif;
-  color: rgb(83, 83, 83);
-  position:relative; 
-  padding: 5px;
-  margin-bottom: 5px;
+/* Content */
+.content {
+  background-color: white;
+  padding: 10px;
+  
 }
 
-div.title {
-  padding-top: 30px;
-  padding-bottom: 20px;
-  font-family: sans-serif;
-  font-weight: bold;
-  font-size: 60px;
-  text-align: center;
-  color: dimgrey;
-
+/* The "show" class is added to the filtered elements */
+.show {
+  display: block;
 }
 
+/* Style the buttons */
+.btn {
+  border: none;
+  outline: none;
+  padding: 12px 16px;
+  background-color: white;
+  cursor: pointer;
+}
+
+/*Centralize the vertical images*/
+img.roads  {
+  margin-left: 14%;
+}
+
+img.pnw {
+  margin-left: 6%;
+}
+
+/* Add a grey background color on mouse-over */
+.btn:hover {
+  background-color: #ddd;
+}
+
+/* Add a dark background color to the active button */
+.btn.active {
+  background-color: #666;
+   color: white;
+}
+
+/*Defines the personal picture at the webpage*/
 img.cssvcircle {
   border-radius: 65%;
   margin-left: 2%;
-  margin-top: 2%;
+  margin-top: 1%;
+  
 }
 
 .css1ny458n {
   font-family: sans-serif;
-  margin-left: 2%;
-  margin-bottom: 1%;
+  margin-left: 2%;  
   margin-top: 1%;
+  padding-bottom: 1%;
 }
 
+/*Defines the e-mail*/
 .css11s48l6 {
   font-family: sans-serif;
   margin-top: 1%;
   font-size: 11px;
-  margin-left: 1%;
+  margin-left: 1.5%;
+  padding-bottom: 1%;
 }
+
+
 
