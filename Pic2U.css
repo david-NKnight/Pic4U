@@ -107,7 +107,7 @@ img.cssvcircle {
   font-family: sans-serif;
   margin-top: 1%;
   font-size: 11px;
-  margin-left: 1.5%;
+  margin-left: 1%;
   padding-bottom: 1%;
 }
 
@@ -124,7 +124,7 @@ h4 {
 /* Style the links inside the navigation bar */
 .topnav a {
   float: right;
-  color: #f2f2f2;
+  color: #6b6969;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -133,7 +133,7 @@ h4 {
 
 /* Change the color of links on hover */
 .topnav a:hover {
-  background-color: #ddd;
+  background-color: #94aa8e;
   color: black;
 }
 
@@ -142,3 +142,5 @@ h4 {
   background-color: #94aa8e;
   color: white;
 }
+
+
