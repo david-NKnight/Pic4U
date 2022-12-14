@@ -90,17 +90,22 @@ img.pnw {
 /*Defines the personal picture at the webpage*/
 img.cssvcircle {
   border-radius: 65%;
-  margin-left: 2%;
-  margin-top: 1%;
+  margin-left: 8%;
+  margin-top: 5%;
   
 }
 
 .css1ny458n {
   font-family: sans-serif;
-  margin-left: 2%;  
+  margin-left: 3%;  
   margin-top: 1%;
   padding-bottom: 1%;
 }
+
+.css1z2hzn {
+  margin-right: 92%;
+}
+
 
 /*Defines the e-mail*/
 .css11s48l6 {
@@ -119,6 +124,7 @@ h4 {
 .topnav {
   background-color: #b6cfaf;
   overflow: hidden;
+  margin-left: 56%;
 }
 
 /* Style the links inside the navigation bar */
