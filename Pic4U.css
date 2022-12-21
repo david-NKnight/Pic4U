@@ -1,10 +1,17 @@
 /*This is a scratch for my Photography webpage*/
 /*This line defines the webpage background color*/
 
+* {
+  box-sizing: border-box;
+
+}
+
 body {
   background-color: #f1f1f1;
   padding: 20px;
-  font-family: Arial;
+  font-family: Arial;  
+
+
 }
 
 /* Center website */
@@ -20,7 +27,11 @@ h1 {
 
 /*Aligns the title PORTFOLIO*/
 h2  {
+  width: 20%;
   margin-top: 50px;
+  padding-left: 3%;
+  padding: 1%;
+  text-align: center;
   }
 
 .row {
@@ -148,8 +159,7 @@ h4 {
   font-size: 25px;
   float: left;
   width: 20%;
-  padding: 5px;
-  background-color: #94aa8e;
+  padding: 5px;  
   text-align: center;
 
 }
@@ -159,21 +169,31 @@ h4 {
 
 /* Change the color of links on hover */
 .active :hover {
-  background-color: #94aa8e;
+  background-color: #6b6969;
   color: black;
+  color: white;
+}
+
+a {
+  padding: 1%;
+  color: #6b6969;
+}
+
+.a :hover {
+  padding: 1%;  
 }
 
 /* Add a color to the active/current link */
 .active {
   font-family: 'Copperplate Gothic';
-  float: right;
-  background-color: #94aa8e;
-  color: white;
+  float: right;  
   color: #6b6969;
   text-align: center;  
   font-size: 17px;  
   padding: 5px;
-  width: 20%;
+  width: 40%;
+  padding-left: 2%;
+    
 }
 
 
