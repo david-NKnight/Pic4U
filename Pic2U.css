@@ -87,13 +87,13 @@ img.pnw {
    color: white;
 }
 
-/*Defines the personal picture at the webpage*/
+/*Defines the personal picture at the webpage
 img.cssvcircle {
   border-radius: 65%;
   margin-left: 2%;
   margin-top: 1%;
   
-}
+}*/
 
 .css1ny458n {
   font-family: sans-serif;
@@ -119,16 +119,18 @@ h4 {
 .topnav {
   background-color: #b6cfaf;
   overflow: hidden;
+
 }
 
 /* Style the links inside the navigation bar */
-.topnav a {
-  float: right;
+.active .a{
+  float: right; 
   color: #6b6969;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
+
 }
 
 /* Change the color of links on hover */

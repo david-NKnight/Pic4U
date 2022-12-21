@@ -1,9 +1,5 @@
 /*This is a scratch for my Photography webpage*/
 /*This line defines the webpage background color*/
-* {
-  box-sizing: border-box;
-  
-}
 
 body {
   background-color: #f1f1f1;
@@ -24,7 +20,7 @@ h1 {
 
 /*Aligns the title PORTFOLIO*/
 h2  {
-  margin-top: 25px;
+  margin-top: 50px;
   }
 
 .row {
@@ -103,16 +99,20 @@ img.cssvcircle {
   
 }*/
 
-/*Defines the name of the personal picture at the webpage*/
+/*Defines the name of the personal picture at the webpage
 .css1ny458n {
   font-family: 'Copperplate Gothic';
   margin-left: 20%;  
   margin-top: 10%;
-  padding-bottom: 1%;
-}
+  margin-bottom: 10%;
+  margin-right: 100%;    
+}*/
 
 .css1z2hzn {
   margin-right: 92%;
+  font-family: 'Copperplate Gothic';  
+  padding-right: 100%;
+ 
 }
 
 /*Defines the e-mail*/
@@ -124,38 +124,56 @@ img.cssvcircle {
   padding-bottom: 1%;
 }
 
+
+.cssv73ehw  {
+  margin-left: 100%;
+}
+
 h4 {
   text-align: center;
 }
 
-/* Set the top menu */
-.topnav {
+/* Set the top menu and the name of the personal picture at the webpage*/
+.topnav::after {
   background-color: #b6cfaf;
-  overflow: hidden;
-  font-family: 'Courier New', Courier, monospace;
-    
+  overflow: hidden;  
+  content: "";
+  clear: both;
+  display: table;
+  background-color: #94aa8e;
 }
+
+#name {
+  font-family: 'Copperplate Gothic';
+  font-size: 25px;
+  float: left;
+  width: 20%;
+  padding: 5px;
+  background-color: #94aa8e;
+  text-align: center;
+
+}
+
 
 /* Style the links inside the navigation bar */
-.topnav a {
-  float: right;
-  color: #6b6969;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-}
 
 /* Change the color of links on hover */
-.topnav a:hover {
+.active :hover {
   background-color: #94aa8e;
   color: black;
 }
 
 /* Add a color to the active/current link */
-.topnav a.active {
+.active {
+  font-family: 'Copperplate Gothic';
+  float: right;
   background-color: #94aa8e;
   color: white;
+  color: #6b6969;
+  text-align: center;  
+  font-size: 17px;  
+  padding: 5px;
+  width: 20%;
 }
 
 
