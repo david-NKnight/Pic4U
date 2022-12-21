@@ -1,2 +1,2 @@
-# Pic2U
-My Image Gallery
+# Pic4U
+This is a Photography Webpage Project
