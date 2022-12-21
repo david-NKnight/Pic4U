@@ -204,8 +204,16 @@ a {
 }
 
 .row {
-  height:420px;
+  height:450px;
   overflow:scroll;
   overflow-x:hidden;
+  background-color: #F5F5F5;
+  border: 2px solid #DDDDDD;
+  border-radius: 4px 0 4px 0;
+  color: #3B3C3E;  
+  font-weight: bold;    
+  padding: 5px 7px 5px;
+  display: block;
+  right: 20px;
 }
 
