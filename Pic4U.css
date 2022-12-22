@@ -3,17 +3,16 @@
 body {
   background-color: #f1f1f1e8;
   padding: 20px;
-  column-count: 2;
-  display: flex;
+  column-count: 2;  
+  display: flex;  
 }
 
 /*This section sets the name and personal picture of the webpage*/
 .name {
   width: 150px;  
-  border: 1px solid gray;
   padding: 5px;
   margin: 20px;
-  font-family: 'Copperplate Gothic';  
+  font-family: 'Copperplate Gothic';    
 }
 
 /*personal picture*/
@@ -25,48 +24,54 @@ body {
 /*name*/
 #name {
   margin-left: 20px;
+  margin-bottom: 50px;
 }
 
 /*this section sets the images box*/
 .content {
-  width: 950px;  
+  width: 1650px;  
   border: 1px solid gray;
-  padding: 5px;
+  padding: 20px;
   margin: 20px;
   font-family: 'Century Gothic';
-  column-count: 3;
+  column-count: 4;
   background-color: #dbdadaaf;
-  border-radius: 2%;
+  border-radius: 1%;
   text-align: center;
-
+  column-gap: 5px;
+  margin-left: auto;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-.photo,
-.roads,
-.pnw,
-  {
-  padding: 5%;
-
+h4 {
+  font-family: 'Century Gothic';
 }
 
 
-div.menu {
-  width: 150px;  
-  border: 1px solid gray;
-  padding: 5px;
-  margin: 20px;
-  font-family: 'Copperplate Gothic';
 
-}
 
 /*This box set the menu options in the webpage*/
-.menu {
-  width: 350px;  
-  border: 5px solid gray;
-  padding: 50px;
-  margin: 20px;
+div.menu {
+  width: 150px;  
+  padding: 2px;
+  margin-right: 30px;
   font-family: 'Copperplate Gothic';
 
+}
+.menu a {    
+  
+  font-family: 'Copperplate Gothic';
+  list-style-type: none;
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+
+}
+
+.menu :hover {
+  background-color: #555;
+  color: white;
 }
 
 
