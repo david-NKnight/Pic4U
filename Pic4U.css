@@ -8,25 +8,26 @@ body {
 }
 
 /*This section sets the name and personal picture of the webpage*/
+
+/*name*/
 .name {
   width: 150px;  
   padding: 5px;
   margin: 20px;
+ 
+  text-align: center;
   font-family: 'Copperplate Gothic';    
+}
+
+#name {
+  margin-bottom: 50px;
 }
 
 /*personal picture*/
 .cssvcircle {
-  margin-left: 30px;
+  margin-left: 1px;
   border-radius: 45%;
 }
-
-/*name*/
-#name {
-  margin-left: 20px;
-  margin-bottom: 50px;
-}
-
 /*this section sets the images box*/
 .content {
   width: 1650px;  
@@ -47,14 +48,16 @@ h4 {
   font-family: 'Century Gothic';
 }
 
-
+p {
+  text-align: center;
+}
 
 
 /*This box set the menu options in the webpage*/
 div.menu {
   width: 150px;  
   padding: 2px;
-  margin-right: 30px;
+  margin-right: 100px;
   font-family: 'Copperplate Gothic';
 
 }
@@ -66,11 +69,12 @@ div.menu {
   color: #000;
   padding: 8px 16px;
   text-decoration: none;
+  text-align: center;
 
 }
 
 .menu :hover {
-  background-color: #555;
+  background-color: rgb(148, 148, 148);
   color: white;
 }
 
