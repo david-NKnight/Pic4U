@@ -1,9 +1,10 @@
 /*This is a scratch for my Photography webpage*/
 /*This line defines the webpage background color*/
 body {
-  background-color: #f1f1f1;
+  background-color: #f1f1f1e8;
   padding: 20px;
   column-count: 2;
+  display: flex;
 }
 
 /*This section sets the name and personal picture of the webpage*/
@@ -28,19 +29,31 @@ body {
 
 /*this section sets the images box*/
 .content {
-  width: 350px;  
-  border: 5px solid gray;
-  padding: 50px;
+  width: 950px;  
+  border: 1px solid gray;
+  padding: 5px;
   margin: 20px;
   font-family: 'Century Gothic';
-  column-count: 3
+  column-count: 3;
+  background-color: #dbdadaaf;
+  border-radius: 2%;
+  text-align: center;
+
+}
+
+.photo,
+.roads,
+.pnw,
+  {
+  padding: 5%;
+
 }
 
 
-.menu {
-  width: 350px;  
-  border: 5px solid gray;
-  padding: 50px;
+div.menu {
+  width: 150px;  
+  border: 1px solid gray;
+  padding: 5px;
   margin: 20px;
   font-family: 'Copperplate Gothic';
 
