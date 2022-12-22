@@ -3,19 +3,41 @@
 body {
   background-color: #f1f1f1;
   padding: 20px;
-   
+  column-count: 2;
 }
 
+/*This section sets the name and personal picture of the webpage*/
+.name {
+  width: 150px;  
+  border: 1px solid gray;
+  padding: 5px;
+  margin: 20px;
+  font-family: 'Copperplate Gothic';  
+}
+
+/*personal picture*/
+.cssvcircle {
+  margin-left: 30px;
+  border-radius: 45%;
+}
+
+/*name*/
+#name {
+  margin-left: 20px;
+}
+
+/*this section sets the images box*/
 .content {
   width: 350px;  
   border: 5px solid gray;
   padding: 50px;
   margin: 20px;
   font-family: 'Century Gothic';
+  column-count: 3
 }
 
-/*This box set the name and personal picture of the webpage*/
-.name {
+
+.menu {
   width: 350px;  
   border: 5px solid gray;
   padding: 50px;
@@ -41,7 +63,7 @@ body {
   padding: 50px;
   margin: 20px;
   font-family: 'Century Gothic';
-
+  
 }
 
 
