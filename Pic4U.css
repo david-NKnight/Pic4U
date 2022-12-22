@@ -1,213 +1,47 @@
 /*This is a scratch for my Photography webpage*/
 /*This line defines the webpage background color*/
-
-* {
-  box-sizing: border-box;
-
-}
-
 body {
   background-color: #f1f1f1;
   padding: 20px;
-  font-family: 'Century Gothic'; 
+   
 }
 
-/* Center website */
-.main {
-  max-width: 1000px;
-  margin: auto;
-}
-
-h1 {
-  font-size: 50px;
-  word-break: break-all;
-}
-
-/*Aligns the title PORTFOLIO*/
-h2  {
-  width: 20%;
-  margin-top: 1px;
-  padding-left: 5%;
-  text-align: center;
-  font-family: 'Century Gothic';
-  font-size: 30px;  
-}
-
-.row {
-  margin: 8px -16px;
- 
-}
-
-/* Add padding BETWEEN each column (if you want) */
-.row,
-.row > .column {
-  padding: 5px;
-  /*margin-left: 10px;*/
-  /*margin-right: 2px;*/
-
-}
-
-.row {  
-  /*overflow:scroll;
-  overflow-x:hidden;*/
-  background-color: #F5F5F5;
-  border: 2px solid #DDDDDD;
-  border-radius: 4px 0 4px 0;
-  color: #3B3C3E;  
-  font-weight: bold;    
-  /*padding: 5px 7px 5px;*/
-  display: block;  
-  width: 80%;
-  margin-left: 20%;
-  box-sizing: border-box
-}
-
-/* Create four equal columns that floats next to each other */
-.column {
-  float: right;
-  width: 25%;
-
-  }
-
-/* Clear floats after rows */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-  width: 100%;  
-}
-
-/* Content */
 .content {
-  background-color: white;
-  padding: 10px;  
-  box-sizing: border-box
-}
-
-/* The "show" class is added to the filtered elements */
-.show {
-  display: block;
-}
-
-/* Style the buttons */
-.btn {
-  border: none;
-  outline: none;
-  padding: 12px 16px;
-  background-color: white;
-  cursor: pointer;
-  
-}
-
-/*Centralize the vertical images*/
-img.roads  {
-  margin-left: 14%;
-}
-
-img.pnw {
-  margin-left: 6%;
-}
-
-img.travel {
-  margin-left: 6%;
-}
-
-/* Add a grey background color on mouse-over */
-.btn:hover {
-  background-color: #ddd;
-}
-
-/* Add a dark background color to the active button */
-.btn.active {
-  background-color: #666;
-   color: white;
-}
-
-
-
-.css1z2hzn {
-  margin-right: 92%;
-  font-family: 'Copperplate Gothic';  
-  padding-right: 100%;
-  padding-top: 200px;
-}
-
-/*Defines the e-mail*/
-.css11s48l6 {
-  font-family: sans-serif;
-  margin-top: 1%;
-  font-size: 11px;
-  margin-left: 1%;
-  padding-bottom: 1%;
-}
-
-.cssv73ehw  {
-  margin-left: 5%;
-}
-
-h4 {
-  text-align: center;
-}
-
-/* Set the top menu and the name of the personal picture at the webpage*/
-.topnav::after {
-  background-color: #b6cfaf;
-  overflow: hidden;  
-  content: "";
-  clear: both;
-  display: table;
-  margin-left: auto;
-}
-
-/*Defines the name of the personal picture at the webpage*/
-.css1ny458n {
-  font-family: 'Copperplate Gothic';
-  box-sizing: border-box
-}
-#name {
-  font-family: 'Copperplate Gothic';
-  font-size: 25px;
-
-}
-/*Defines the personal picture at the webpage*/
-img.cssvcircle {
-  border-radius: 55%; 
- margin-left: 35px;
-  box-sizing: border-box
-
-}
-/* Style the links inside the navigation bar */
-
-/* Change the color of links on hover */
-.active :hover {
-  background-color: #6b6969;
-  color: black;
-  color: white;
-}
-
-a {
-  padding: 1%;
-  color: black;
-}
-
-.a :hover {
-  padding: 1%;  
-}
-
-/* Add a color to the active/current link */
-.active {
+  width: 350px;  
+  border: 5px solid gray;
+  padding: 50px;
+  margin: 20px;
   font-family: 'Century Gothic';
-  float: right;    
-  text-align: center;  
-  font-size: 17px;  
-  padding: 5px;
-  width: 40%;
-  padding-left: 2%;  
-  box-sizing: border-box 
 }
 
-.row::before {
-  content: "";
-  clear: both;
-  display: table;
+/*This box set the name and personal picture of the webpage*/
+.name {
+  width: 350px;  
+  border: 5px solid gray;
+  padding: 50px;
+  margin: 20px;
+  font-family: 'Copperplate Gothic';
+
 }
+
+/*This box set the menu options in the webpage*/
+.menu {
+  width: 350px;  
+  border: 5px solid gray;
+  padding: 50px;
+  margin: 20px;
+  font-family: 'Copperplate Gothic';
+
+}
+
+
+.pictures {
+  width: 350px;  
+  border: 5px solid gray;
+  padding: 50px;
+  margin: 20px;
+  font-family: 'Century Gothic';
+
+}
+
+
