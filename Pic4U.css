@@ -59,6 +59,7 @@ h2  {
   display: block;  
   width: 80%;
   margin-left: 20%;
+  box-sizing: border-box
 }
 
 /* Create four equal columns that floats next to each other */
@@ -80,7 +81,7 @@ h2  {
 .content {
   background-color: white;
   padding: 10px;  
-  
+  box-sizing: border-box
 }
 
 /* The "show" class is added to the filtered elements */
@@ -122,25 +123,13 @@ img.travel {
    color: white;
 }
 
-/*Defines the personal picture at the webpage*/
-img.cssvcircle {
-  border-radius: 45%; 
- 
-  width: 50%;
-  margin-right: auto;
-}
 
-/*Defines the name of the personal picture at the webpage*/
-.css1ny458n {
-  font-family: 'Copperplate Gothic';
-     
-}
 
 .css1z2hzn {
   margin-right: 92%;
   font-family: 'Copperplate Gothic';  
   padding-right: 100%;
- 
+  padding-top: 200px;
 }
 
 /*Defines the e-mail*/
@@ -151,7 +140,6 @@ img.cssvcircle {
   margin-left: 1%;
   padding-bottom: 1%;
 }
-
 
 .cssv73ehw  {
   margin-left: 5%;
@@ -168,16 +156,24 @@ h4 {
   content: "";
   clear: both;
   display: table;
-    
+  margin-left: auto;
 }
 
+/*Defines the name of the personal picture at the webpage*/
+.css1ny458n {
+  font-family: 'Copperplate Gothic';
+  box-sizing: border-box
+}
 #name {
   font-family: 'Copperplate Gothic';
   font-size: 25px;
-  float: left;
-  width: 20%;
-  padding: 5px;  
-  text-align: center;
+
+}
+/*Defines the personal picture at the webpage*/
+img.cssvcircle {
+  border-radius: 55%; 
+ margin-left: 35px;
+  box-sizing: border-box
 
 }
 /* Style the links inside the navigation bar */
@@ -207,7 +203,7 @@ a {
   padding: 5px;
   width: 40%;
   padding-left: 2%;  
-  padding-top: 2%;  
+  box-sizing: border-box 
 }
 
 .row::before {
