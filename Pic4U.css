@@ -9,9 +9,7 @@
 body {
   background-color: #f1f1f1;
   padding: 20px;
-  font-family: 'Century Gothic';  
-
-
+  font-family: 'Century Gothic'; 
 }
 
 /* Center website */
@@ -32,9 +30,8 @@ h2  {
   padding-left: 5%;
   text-align: center;
   font-family: 'Century Gothic';
-  font-size: 30px;
-  
-  }
+  font-size: 30px;  
+}
 
 .row {
   margin: 8px -16px;
@@ -130,7 +127,7 @@ img.cssvcircle {
   border-radius: 45%; 
  
   width: 50%;
-  margin-right: 80%;
+  margin-right: auto;
 }
 
 /*Defines the name of the personal picture at the webpage*/
@@ -218,5 +215,3 @@ a {
   clear: both;
   display: table;
 }
-
-
