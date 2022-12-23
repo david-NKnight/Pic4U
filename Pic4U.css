@@ -5,6 +5,7 @@ body {
   padding: 20px;
   column-count: 2;  
   display: flex;  
+  
 }
 
 /*This section sets the name and personal picture of the webpage*/
@@ -15,11 +16,13 @@ body {
   padding: 5px;
   margin: 20px; 
   text-align: center;
-  font-family: 'Copperplate Gothic';    
+  font-family: 'Copperplate Gothic';
+     
 }
 
 #name {
   margin-bottom: 50px;
+  font-weight: bold; 
 }
 
 /*personal picture*/
@@ -32,8 +35,7 @@ body {
   width: 1650px;  
   border: 1px solid gray;
   padding: 20px;
-  margin: 20px;
-  font-family: 'Century Gothic';
+  margin: 20px;  
   column-count: 4;
   background-color: #dbdadaaf;
   border-radius: 1%;
@@ -41,24 +43,24 @@ body {
   column-gap: 5px;
   margin-left: auto;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  gap: 20px;
+
 }
 
 #pic {
   border: 3px solid rgb(221, 217, 217); /* Gray border */
   border-radius: 2px;  /* Rounded border */
-    
+  background-color: white;
 }
 
 #pic:hover {
   box-shadow: 0 0 2px 1px rgba(16, 17, 17, 0.5);
 }
 
-#pic > .column {
-  padding: 4px;
-}
-
 h4 {
-  font-family: 'Century Gothic';
+  margin-top: 2px;
+  font-family:'century gothic';
+  font-weight: lighter;
 }
 
 p {
@@ -95,13 +97,5 @@ div.menu {
 }
 
 
-.pictures {
-  width: 350px;  
-  border: 5px solid gray;
-  padding: 50px;
-  margin: 20px;
-  font-family: 'Century Gothic';
-  
-}
 
 
