@@ -13,8 +13,7 @@ body {
 .name {
   width: 150px;  
   padding: 5px;
-  margin: 20px;
- 
+  margin: 20px; 
   text-align: center;
   font-family: 'Copperplate Gothic';    
 }
@@ -76,6 +75,10 @@ div.menu {
 .menu :hover {
   background-color: rgb(148, 148, 148);
   color: white;
+}
+
+.some {
+  width: 30px;
 }
 
 
