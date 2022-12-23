@@ -43,6 +43,20 @@ body {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
+#pic {
+  border: 3px solid rgb(221, 217, 217); /* Gray border */
+  border-radius: 2px;  /* Rounded border */
+    
+}
+
+#pic:hover {
+  box-shadow: 0 0 2px 1px rgba(16, 17, 17, 0.5);
+}
+
+#pic > .column {
+  padding: 4px;
+}
+
 h4 {
   font-family: 'Century Gothic';
 }
@@ -50,7 +64,6 @@ h4 {
 p {
   text-align: center;
 }
-
 
 /*This box set the menu options in the webpage*/
 div.menu {
