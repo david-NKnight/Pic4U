@@ -97,5 +97,30 @@ div.menu {
 }
 
 
+content {
+  color: #3E4147;
+  line-height: 1.75;
+  margin-bottom: 2em;
+  font-family: 'Arvo', serif;
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+
+@media all and (max-width: 500px) {
+
+  .content {
+    color: blue;
+    font-size: 1.25rem;
+  }
+}
+
+@media (orientation: landscape) {
+
+  .p {
+    color: green;
+  }
+
+}
 
 
